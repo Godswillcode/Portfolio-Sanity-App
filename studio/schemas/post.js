@@ -9,6 +9,10 @@ export default {
       type: 'string',
     },
     {
+      name: "date",
+      type: "datetime",
+    },
+    {
       name: 'slug',
       title: 'Slug',
       type: 'slug',

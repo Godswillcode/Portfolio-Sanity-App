@@ -1,14 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
-
-* {
-  box-sizing: border-box;
-}
+@import url("https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css");
+@import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 html {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-body {
-  
+.prose img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
 }
+
+.home-name {
+  font-size: 150px;
+}
+
+
 
