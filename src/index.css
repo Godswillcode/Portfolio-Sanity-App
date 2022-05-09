@@ -1,9 +1,9 @@
 @import url("https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css");
 @import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .prose img {
@@ -17,4 +17,32 @@ html {
 }
 
 
+/*== Google translate style ==*/
 
+.translated-ltr {
+  margin-top: -40px !important;
+}
+.translated-ltr {
+  margin-top: -40px !important;
+}
+.goog-te-banner-frame {
+  display: none;
+  /* margin-top: -20px; */
+}
+
+.goog-logo-link {
+  display: none !important;
+}
+
+.goog-te-gadget-simple img {
+  display: none !important;
+}
+
+.goog-te-gadget-simple {
+  padding: 10px !important;
+  margin-bottom: -30px !important;
+}
+
+.goog-te-gadget-simple span {
+  padding-right: 3px !important;
+}

@@ -3,8 +3,9 @@ import { NavLink } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
 
 const NavBar = () => {
+
   return (
-    <header className="bg-red-600">
+    <header className="bg-red-600 w-full top-0 sticky z-10">
       <div className="container mx-auto flex justify-between">
         <nav className="flex">
           <NavLink
@@ -34,6 +35,8 @@ const NavBar = () => {
           >
             About Me
           </NavLink>
+       
+         
         </nav>
         <div className="inline-flex p-3 my-2">
           <SocialIcon
@@ -57,6 +60,7 @@ const NavBar = () => {
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
+             <div id="google_translate_element"></div>
         </div>
       </div>
     </header>
