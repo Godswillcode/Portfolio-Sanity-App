@@ -1,6 +1,5 @@
 import React from "react";
 import bg from "../images/bg.jpg";
-import {useEffect} from "react"
 const Home = () => {
 
 
