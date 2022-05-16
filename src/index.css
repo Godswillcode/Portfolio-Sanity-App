@@ -16,7 +16,6 @@ html {
   font-size: 150px;
 }
 
-
 /*== Google translate style ==*/
 
 .translated-ltr {
@@ -39,10 +38,31 @@ html {
 }
 
 .goog-te-gadget-simple {
-  padding: 10px !important;
+  padding: 7px 10px !important;
   margin-bottom: -30px !important;
+  border-radius: 10px;
 }
 
 .goog-te-gadget-simple span {
   padding-right: 3px !important;
+}
+
+/*== search drawer style ==*/
+
+.drawer {
+  -webkit-transform: translate3d(0, -142px, 0);
+  -moz-transform: translate3d(0, -142px, 0);
+  -o-transform: translate3d(0, -142px, 0);
+  transform: translate3d(0, -142px, 0);
+  -webkit-transition: -webkit-transform 0.25s linear;
+  -moz-transition: -moz-transform 0.25s linear;
+  -o-transition: -o-transform 0.25s linear;
+  transition: transform 0.25s linear;
+  position: absolute;
+}
+.drawer.active {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
